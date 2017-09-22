@@ -1564,8 +1564,8 @@ function! s:Tlist_Window_Init()
     endif
     nnoremap <buffer> <silent> <2-LeftMouse>
                 \ :call <SID>Tlist_Window_Jump_To_Tag('useopen')<CR>
-    nnoremap <buffer> <silent> s
-                \ :call <SID>Tlist_Change_Sort('cmd', 'toggle', '')<CR>
+"    nnoremap <buffer> <silent> s
+"                \ :call <SID>Tlist_Change_Sort('cmd', 'toggle', '')<CR>
     nnoremap <buffer> <silent> + :silent! foldopen<CR>
     nnoremap <buffer> <silent> - :silent! foldclose<CR>
     nnoremap <buffer> <silent> * :silent! %foldopen!<CR>
